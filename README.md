@@ -4,6 +4,18 @@ A small collection of agent skills — reusable instruction sets that give codin
 
 Each skill lives in its own directory as a `SKILL.md` file with YAML frontmatter (`name`, `description`) followed by the instructions the agent follows when it activates that skill.
 
+## Install
+
+Install a skill with the Skills CLI:
+
+```bash
+npx skills add masroore/skills@implement-plan
+npx skills add masroore/skills@implement-plan-worktree
+npx skills add masroore/skills@designs
+```
+
+Add `-g` to install globally (user-level) and `-y` to skip confirmation prompts. Run `npx skills update` to update everything you've installed, or `npx skills find` to browse the wider ecosystem.
+
 ## Skills
 
 | Skill | What it does |
@@ -17,22 +29,6 @@ Each skill lives in its own directory as a `SKILL.md` file with YAML frontmatter
 Drop a skill directory into your agent's skills location so the agent can discover its `SKILL.md`, or point your agent at the file directly. Invoke a skill explicitly (for example `/implement-plan`) when your agent supports skill commands, or let the agent pick it up from the skill's `description` when the task matches.
 
 `implement-plan` and `implement-plan-worktree` expect an attached plan file (e.g. `.plan/*.md`) and will ask which plan to implement if none is provided.
-
-## Adding a skill
-
-1. Create a directory named after the skill.
-2. Add a `SKILL.md` with frontmatter:
-
-   ```markdown
-   ---
-   name: my-skill
-   description: What it does and when to use it.
-   ---
-
-   Instructions for the agent.
-   ```
-
-3. Keep the description specific — it is how the agent decides when to activate the skill.
 
 ## License
 
