@@ -1,6 +1,12 @@
 ---
 name: implement-plan
-description: Execute a provided implementation plan completely — implement every requirement, verify with the project's tooling, and report honestly.
+description: Execute a provided implementation plan completely — implement every requirement, verify with the project's tooling, and report honestly
+triggers:
+  - "implement plan"
+  - "execute plan"
+  - "implement this plan"
+  - "/implement-plan"
+version: 1.0.0
 ---
 
 # Implement Plan

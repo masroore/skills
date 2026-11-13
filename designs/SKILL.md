@@ -1,6 +1,13 @@
 ---
 name: designs
-description: 'Show 4 better, new design options as separate real image renders of the actual app UI. Use for "designs" or when the user asks for new design ideas.'
+description: Show 4 better, new design options as separate real image renders of the actual app UI
+triggers:
+  - "designs"
+  - "design options"
+  - "design ideas"
+  - "show me designs"
+  - "/designs"
+version: 1.0.0
 ---
 
 Give me 4 better, new designs of what this could look like.

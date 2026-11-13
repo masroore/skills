@@ -1,6 +1,5 @@
 ---
-skill: review-implementation
-version: 1.0.0
+name: review-implementation
 description: Review implemented code against plan specifications with critical assessment
 triggers:
   - "review implementation"
@@ -8,6 +7,7 @@ triggers:
   - "check against plan"
   - "verify implementation"
   - "/review-implementation"
+version: 1.0.0
 ---
 
 # Review Implementation
