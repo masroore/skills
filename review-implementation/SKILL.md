@@ -193,14 +193,11 @@ The user stories in REQUIREMENTS.md have been implemented. Review the implementa
 - **Bash**: Run `git diff`, `git log`, test commands
 - **Grep**: Search for patterns across codebase
 - **Glob**: Find related files
-- **mcp__semble__search**: Find implementations of specific features
-- **mcp__serena__get_diagnostics_for_file**: Check for type/lint errors
 
 ## Integration with Other Skills
 
 - **Follow up with `/code-review`** for detailed bug hunting
 - **Follow up with `/security-review`** for security-focused audit
-- **Follow up with `/gsd-verify-work`** for goal-backward verification
 - **Use `/simplify`** to address quality issues found
 
 ## Output Format
@@ -224,5 +221,4 @@ Return a single comprehensive markdown report, not a chat transcript. The report
 
 - `code-review`: Detailed Standards and Spec review for PRs
 - `security-review`: Security-focused audit
-- `gsd-verify-work`: Goal-backward verification
 - `simplify`: Code quality cleanup
