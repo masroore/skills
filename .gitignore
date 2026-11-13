@@ -140,3 +140,6 @@ temp/
 # ==============================================================================
 
 .mirror-metadata.json
+
+# Serena MCP local state
+.serena/
