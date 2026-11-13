@@ -9,12 +9,15 @@ Each skill lives in its own directory as a `SKILL.md` file with YAML frontmatter
 Install a skill with the Skills CLI:
 
 ```bash
+npx skills add masroore/skills
 npx skills add masroore/skills@implement-plan
 npx skills add masroore/skills@implement-plan-worktree
 npx skills add masroore/skills@designs
 ```
 
-Add `-g` to install globally (user-level) and `-y` to skip confirmation prompts. Run `npx skills update` to update everything you've installed, or `npx skills find` to browse the wider ecosystem.
+Add `-g` to install globally (user-level) and `-y` to skip confirmation prompts.
+
+Run `npx skills update` to update everything you've installed, or `npx skills find` to browse the wider ecosystem.
 
 ## Skills
 
