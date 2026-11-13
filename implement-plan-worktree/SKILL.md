@@ -1,5 +1,6 @@
 ---
 name: implement-plan-worktree
+description: Execute a provided implementation plan completely in an isolated Git worktree, committing atomically and merging back cleanly.
 ---
 
 # Implement Plan (Worktree)

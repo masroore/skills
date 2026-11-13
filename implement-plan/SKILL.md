@@ -1,5 +1,6 @@
 ---
 name: implement-plan
+description: Execute a provided implementation plan completely — implement every requirement, verify with the project's tooling, and report honestly.
 ---
 
 # Implement Plan
