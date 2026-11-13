@@ -1,3 +1,7 @@
+---
+name: implement-plan
+---
+
 # Implement Plan
 
 Execute a provided implementation plan completely. Usually invoked when a plan file (e.g. `.plan/*.md`) is attached to the chat session. If no plan is attached, ask which plan file to implement.
